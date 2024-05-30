@@ -1,0 +1,21 @@
+{
+  "sensor_data": {
+    "temperature": {
+      "value": 22.5,
+      "unit": "Celsius",
+      "timestamp": "2024-05-20T14:25:00Z"
+    },
+    "gyroscope": {
+      "x": 0.01,
+      "y": -0.02,
+      "z": 0.03,
+      "unit": "degrees/second",
+      "timestamp": "2024-05-20T14:25:00Z"
+    },
+    "humidity": {
+      "value": 45,
+      "unit": "percent",
+      "timestamp": "2024-05-20T14:25:00Z"
+    }
+  }
+}
