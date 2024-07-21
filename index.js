@@ -1,3 +1,4 @@
+
 const mqtt = require('mqtt');
 const express = require('express');
 const cors = require('cors');
@@ -63,6 +64,11 @@ client_mqtt.on('message', (topic, message) => {
 
     // Uncomment the following line if you want to unsubscribe after receiving the first message
     // client_mqtt.unsubscribe(MQTT_TOPIC);
+});
+
+// Root route to display server status message
+app.get('/', (req, res) => {
+    res.send('<h1>Server is running smoothly and there are no errors.</h1>');
 });
 
 // Start Express server
