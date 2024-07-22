@@ -1,4 +1,3 @@
-
 const mqtt = require('mqtt');
 const express = require('express');
 const cors = require('cors');
@@ -24,6 +23,9 @@ const client_mqtt = mqtt.connect(MQTT_BROKER);
 
 // Store WebSocket clients
 const clients = new Set();
+
+// Variable to store the latest message
+let latestMessage = null;
 
 // WebSocket connection event
 wss.on('connection', (ws) => {
@@ -52,6 +54,9 @@ client_mqtt.on('message', (topic, message) => {
         const messageObject = JSON.parse(message.toString());
         console.log(`Topic: ${topic}, Message Object:`, messageObject);
 
+        // Update the latest message
+        latestMessage = messageObject;
+
         // Broadcast the messageObject to all connected WebSocket clients
         clients.forEach((client) => {
             if (client.readyState === WebSocket.OPEN) {
@@ -66,9 +71,17 @@ client_mqtt.on('message', (topic, message) => {
     // client_mqtt.unsubscribe(MQTT_TOPIC);
 });
 
-// Root route to display server status message
+// Root route to display server status and latest message
 app.get('/', (req, res) => {
-    res.send('<h1>Server is running smoothly and there are no errors.</h1>');
+    if (latestMessage) {
+        res.send(`
+            <h1>Server is running smoothly and there are no errors.</h1>
+            <h2>Latest Message</h2>
+            <pre>${JSON.stringify(latestMessage, null, 2)}</pre>
+        `);
+    } else {
+        res.send('<h1>Server is running smoothly and there are no errors.</h1><h2>No messages received yet.</h2>');
+    }
 });
 
 // Start Express server

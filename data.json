@@ -1,21 +1,24 @@
 {
-  "sensor_data": {
-    "temperature": {
-      "value": 22.5,
-      "unit": "Celsius",
-      "timestamp": "2024-05-20T14:25:00Z"
-    },
-    "gyroscope": {
-      "x": 0.01,
-      "y": -0.02,
-      "z": 0.03,
-      "unit": "degrees/second",
-      "timestamp": "2024-05-20T14:25:00Z"
-    },
-    "humidity": {
-      "value": 45,
-      "unit": "percent",
-      "timestamp": "2024-05-20T14:25:00Z"
-    }
+  "temperature": 45,
+  "humidity": 44,
+  "distance": 290,
+  "acceleration": {
+      "x": 3.7,
+      "y": 34534,
+      "z": 53
+  },
+  "gyroscope": {
+      "x": 3,
+      "y": 6,
+      "z": 23
+  },
+  "orientation": {
+      "roll": 90,
+      "pitch": 76,
+      "yaw": 43
+  },
+  "gps": {
+      "latitude": 2342342343,
+      "longitude": 523525346
   }
 }
