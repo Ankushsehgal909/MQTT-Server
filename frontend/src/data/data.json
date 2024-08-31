@@ -1,0 +1,149 @@
+{
+  "Header": {
+    "title": "SARDAR",
+    "paragraph": "Surveillance with Artificial Intelligence & Remote Control based on Deep Learning Advanced Robot"
+  },
+  "About": {
+    "paragraph": "Surveillance with Artificial Intelligence & Remote Control using Deep Learning Advanced Robot technology. It's like having a super-smart robot keeping an eye on things for you! This cool system uses really smart computer programs and special sensors to watch and understand what's going on around it. But here's the really cool part: it doesn't just watch, it learns and gets better at spotting any problems or dangers. Plus, you can control it from far away! That means you can keep an eye on important places or things without having to be right there. Whether it's keeping watch over a building or making sure everything's safe and sound, our invention brings together brains and control for top-notch security. Welcome to a new era of security, where intelligence and control converge seamlessly to safeguard what matters most..",
+    "Why": [
+
+    ],
+    "Why2": [
+
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "",
+      "largeImage": "",
+      "smallImage": ""
+    },
+    {
+      "title": "",
+      "largeImage": "",
+      "smallImage": ""
+    },
+    {
+      "title": "",
+      "largeImage": "",
+      "smallImage": ""
+    },
+    {
+      "title": "",
+      "largeImage": "",
+      "smallImage": ""
+    }
+  ],
+  "Services": [
+  
+    {
+      "icon": "fa fa-tint",
+      "name": "Humidity",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/02.jpg",
+      "name": "Ankush ",
+      "job": "2001870100017"
+    },
+    {
+      "img": "img/team/01.jpg",
+      "name": "Soumil",
+      "job": "2001870310099"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Pratik Mishra",
+      "job": "2001870310068"
+    }
+  ],
+  "Contact": {
+    "address": "4321 California St, San Francisco, CA 12345 ",
+    "phone": "+1 123 456 1234",
+    "email": "info@company.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-",
+      "title": "Intruder Detection",
+      "text": "Intruder detection keeps an eye out for unwanted visitors in our digital spaces, spotting them before they cause harm."
+    },
+    {
+      "icon": "fa fa-",
+      "title": "Self driving",
+      "text": "Self-driving technology revolutionizes transportation, offering a glimpse into a future where cars navigate the roads autonomously."
+    },
+    {
+      "icon": "fa fa-",
+      "title": "Webserver Controlled",
+      "text": "Web server control lets people manage and improve how their websites work, keeping them safe and fast for users."
+    },
+    {
+      "icon": "fa fa-",
+      "title": "MQTT Publishing",
+      "text": "MQTT publishing sends data efficiently and reliably across networks, enabling seamless communication between devices in the Internet of Things (IoT) ecosystem."
+    }
+  ]
+}

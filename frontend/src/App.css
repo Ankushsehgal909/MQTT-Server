@@ -1,0 +1,22 @@
+@media screen and (max-width: 400px) {
+  #features {
+    padding: 20px;
+    width: 111%;
+  }
+  #about,
+  #services,
+  #testimonials,
+  #team,
+  #contact,
+  #footer {
+    width: 111%;
+  }
+
+  #portfolio {
+    width: 110%;
+  }
+}
+#menu{background: rgb(55,0,99);
+  background: linear-gradient(90deg, rgba(55,0,99,1) 0%, rgba(2,0,106,1) 50%, rgba(22,0,113,1) 71%, rgba(68,0,162,1) 100%);
+  color:aliceblue;
+}
